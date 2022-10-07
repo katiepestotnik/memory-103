@@ -21,6 +21,9 @@ const onCardClicked = (e) => {
             setTimeout(() => {
                 flipCardBack(target)
             }, 2000)
+            setTimeout(() => {
+                flipCardBack(firstCard)
+            }, 2000)
         }
         isFirstChoiceClicked = false
         firstCard = undefined
