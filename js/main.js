@@ -1,5 +1,4 @@
-const card = document.querySelector('.card')
-console.log(card)
+const cards = document.querySelectorAll('.card')
 
 const flipCard = (target) => {
     target.classList.remove('card-back')
@@ -16,7 +15,8 @@ const onCardClicked = (e) => {
     }, 2000)
 }
 
+cards.forEach((card) => {
+    card.addEventListener('click', onCardClicked)
+})
 
 
-
-card.addEventListener('click', onCardClicked)

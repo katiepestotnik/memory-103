@@ -11,3 +11,8 @@
 .card-back {
     background-color: darkorange;
 }
+.card-box{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
