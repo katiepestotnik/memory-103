@@ -1,0 +1,13 @@
+.card{
+    height: 100px;
+    width: 100px;
+    border: 1px solid purple;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.card-back {
+    background-color: darkorange;
+}
